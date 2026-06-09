@@ -6,7 +6,7 @@ De novo peptide sequencing is a key technology for discovering the dark matter o
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9169c431-f983-4cbb-b43b-7ad3e203f224" 
        alt="CredAlign algorithm scoring mechanism" 
-       width="70%"/>
+       width="35%"/>
 </div>
 <p align="center">
   Figure 1. Amino acid confidence-weighted scoring mechanism of the CredAlign algorithm..
@@ -28,10 +28,9 @@ Prepare the following input files and directories:
   - Place one or more .csv files in `./Release/net6.0/Template/`
   - Each line in the CSV file represents one template sequence
 
-Note: The program will perform pairwise local sequence alignment: **every query sequence against every template sequence automatically**.
+*Note: The program will perform pairwise local sequence alignment: **every query sequence against every template sequence automatically***.
 ## 2. Run CredAlign
-Execute the program by double-clicking `CredAlign.exe` in `./Release/net6.0/`
-
+Execute the program by double-clicking `CredAlign.exe` in `./Release/net6.0/`  
 After completion, all alignment results will be generated in: `./Release/net6.0/Result/`
 
 ## 3. Output Interpretation
