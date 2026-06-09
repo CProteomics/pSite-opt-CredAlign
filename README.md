@@ -6,7 +6,7 @@ De novo peptide sequencing is a key technology for discovering the dark matter o
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9169c431-f983-4cbb-b43b-7ad3e203f224" 
        alt="CredAlign algorithm scoring mechanism" 
-       width="35%"/>
+       width="45%"/>
 </div>
 <p align="center">
   Figure 1. Amino acid confidence-weighted scoring mechanism of the CredAlign algorithm..
