@@ -31,7 +31,7 @@ Prepare the following input files and directories:
 *Note: The program will perform pairwise local sequence alignment: **every query sequence against every template sequence automatically***.
 ## 2. Run CredAlign
 Execute the program by double-clicking `CredAlign.exe` in `./Release/net6.0/`  
-After completion, all alignment results will be generated in: `./Release/net6.0/Result/`
+After completion, all alignment results will be generated in `./Release/net6.0/Result/`
 
 ## 3. Output Interpretation
  Each line represents a CredAlign alignment result with the following semicolon-separated format:
