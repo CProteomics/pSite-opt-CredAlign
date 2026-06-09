@@ -31,23 +31,25 @@ Prepare the following input files and directories:
 Note: The program will perform pairwise local sequence alignment: **every query sequence against every template sequence automatically**.
 ## 2. Run CredAlign
 Execute the program by double-clicking `CredAlign.exe` in `./Release/net6.0/`
+
 After completion, all alignment results will be generated in: `./Release/net6.0/Result/`
 
 ## 3. Output Interpretation
-Each line represents a CredAlign alignment result with the following semicolon-separated format:
+ Each line represents a CredAlign alignment result with the following semicolon-separated format:
 `Query:Query_sequence,Confidence_scores;Template:Template_sequence;CredAlign_Result:Aligned_query,Aligned_template,CIGAR_string`
 
-Example of a complete result line:
+ Example of a complete result line:
 `Query:LHFLTEPAEVNPGR,98.7612 97.42165 99.97832 99.83066 99.02905 99.61818 98.94964 37.70059 68.17488 22.33408 54.68313 61.94963 4.88969 96.74363;
-Template:PPRPPRP.PRQLLPVMQTLTSRIHFLTEPAEPAGAARAAQPCVMGNIQKKLTGKAEGGK;CredAlign_Result:LHFLTEPAE.VNPGR(query),IHFLTEPAEPAGAAR(template),MMMMMMMMMDMMMMM(CIGAR)`
+Template:PPRPPRP.PRQLLPVMQTLTSRIHFLTEPAEPAGAARAAQPCVMGNIQKKLTGKAEGGK;CredAlign_Result:
+LHFLTEPAE.VNPGR(query),IHFLTEPAEPAGAAR(template),MMMMMMMMMDMMMMM(CIGAR)`
 
-The specific meanings of each field are:
+ The specific meanings of each field are:
  - **Query**: Input query sequence and its corresponding amino acid confidence scores
  - **Template**: Input template sequence used for alignment
  - **CredAlign_Result**:
-  - Aligned query sequence (marked with `query`)
-  - Aligned template sequence (marked with `template`)
-  - Standard CIGAR string for alignment annotation (marked with `CIGAR`)
+   - Aligned query sequence (marked with `query`)
+   - Aligned template sequence (marked with `template`)
+   - Standard CIGAR string for alignment annotation (marked with `CIGAR`)
     
 # Citing CredAlign
 # Support
