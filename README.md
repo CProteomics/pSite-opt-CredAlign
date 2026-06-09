@@ -12,3 +12,6 @@ De novo peptide sequencing is a key technology for discovering the dark matter o
   Figure 1. Amino acid confidence-weighted scoring mechanism of the CredAlign algorithm..
 </p>
 
+# System Requirements
+.NET Runtime: .NET 6.0 (for C# components). Operating Systems: Windows 10/11.
+
