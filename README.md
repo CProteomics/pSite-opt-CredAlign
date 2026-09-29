@@ -75,12 +75,7 @@ Example:
 151009_exo3_1.4506.4506.4.1.dta,AQQSSALLAQAMLPMR,37.53886 8.66408 6.32757 4.0702 3.0395 5.52955 60.61168 75.59622 57.96632 74.87783 35.1827 0.08527 1.87005 0.60685 0.05041 34.47635
 ```
 
-In this example, the peptide `AQQSSALLAQAMLPMR` has 16 amino acids, and 16 confidence scores are reported.
-
-### Score Scale
-
-The example scores are reported on a 0–100 scale.  
-If a downstream tool such as CredAlign expects confidence values `c_j` in `[0, 1]`, divide each score by 100 when reading the output, unless the code already performs this normalization.
+In this example, the peptide `AQQSSALLAQAMLPMR` has 16 AAs, and 16 confidence scores are reported.
 
 ## CredAlign
 
@@ -121,16 +116,12 @@ LHFLTEPAE.VNPGR(query),IHFLTEPAEPAGAAR(template),MMMMMMMMMDMMMMM(CIGAR)`
 
 The specific meanings of each field are:
 
-- **Query**: Input query sequence and its corresponding amino acid confidence scores
+- **Query**: Input query sequence and its corresponding AA confidence scores
 - **Template**: Input template sequence used for alignment
 - **CredAlign_Result**:
   - Aligned query sequence (marked with `query`)
   - Aligned template sequence (marked with `template`)
   - Standard CIGAR string for alignment annotation (marked with `CIGAR`)
-
-# Citing pSite-opt/CredAlign
-
-If you use pSite-opt/CredAlign in your work, please cite the corresponding manuscript.
 
 # Support
 
