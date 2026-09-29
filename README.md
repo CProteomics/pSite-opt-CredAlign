@@ -84,7 +84,7 @@ Prepare the following input files and directories:
   - Place one or more `.csv` files in `./Release/net6.0/Template/`
   - Each line in the CSV file represents one template sequence
 
-*Note: The program will perform pairwise local sequence alignment: **every query sequence against every template sequence automatically***.
+*Note: The program will perform pairwise local sequence alignment: every query sequence against every template sequence automatically*.
 
 ### Run CredAlign
 
